@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <style>
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .text {
+            text-transform: uppercase;
+        }
+
+        .text-blue {
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="table.html" target="_blank">Перейдти к таблице</a><br>
+    <a href="#poem">Перейдти к стихотворению</a>
+    <h1>Web-программист</h1><button><a href="https://ya.ru/" target="_blank">Перейдти на яндекс</a></button>
+
+    <p class="text text-blue"> <b>Web-программист</b>– это специалист,
+        разрабатывающий веб-приложения (любые сайты, в которых есть элементы интерактива),
+        то есть фактически большую часть интернет-ресурсов: поисковики,интернет-магазины, соцсети,
+        видеохостинги,сервисы заказа и бронирования,онлайн-калькуляторы и т. д. <i>Современные веб-приложения</i>,
+        как правило, клиент-серверные. Клиентскую часть разрабатывает фронтенд-программист,
+        а серверную – бэкенд разработчик. Специалисты,способные выполнять обе эти роли,
+        называются фуллстек-программистами.
+    </p>
+    <p>Несмотря на то что сейчас дизайнер может с помощью конструктора создать сайт,
+        востребованность в web-программистах не уменьшается,
+        а только увеличивается. Чаще всего для малого бизнеса достаточно готовых решений,
+        но если нужна автоматизация бизнес-процессов или сложные приложения (сайты) в сети Интернет,
+        тогда без web-программиста не обойтись.
+    </p>
+    <p class="text">Термин <b><i>«web-программист»</i></b>очень широкий,
+        так как web-сфера разнообразна,делится на профили,по которым работают узкие специалисты.
+    </p>
+    <h2>Какие web-программисты бывают</h2>
+    <a href="https://delfa72.ru/" target="_blank"><img src="./images/shb-logo.svg" alt="Логотип"
+            title="Школа Дельфа72"></a>
+    <p>Один человек не может быть <strong>профессионалом</strong>во всем,
+        поэтому программисты в web-сфере специализируются на узких направлениях:
+    </p>
+    <ul>
+        <li>frontend (клиентская часть) разработчики;</li>
+        <li>backend (серверная часть) разработчики;</li>
+        <li>fullstack-разработчики.</li>
+    </ul>
+    <p><img src="./images/web.jpg" alt="Програмист" title="Програмист" height="250"></p>
+
+    <h2 id="poem">ЗИМНЕЕ УТРО</h2>
+    <p>
+        Мороз и солнце; день чудесный!<br>
+        Еще ты дремлешь, друг прелестный<br>
+        Пора, красавица, проснись:<br>
+        Открой сомкнуты негой взоры<br>
+        Навстречу северной Авроры,<br>
+        Звездою севера явись!<br>
+    </p>
+
+
+    <p>
+        Вечор, <i><span class="red">ты помнишь, вьюга злилась,</span></i><br>
+        На мутном небе мгла носилась;<br>
+        Луна, как бледное пятно,<br>
+        Сквозь тучи мрачные желтела,<br>
+        И ты печальная сидела —<br>
+        А нынче... погляди в окно:<br>
+    </p>
+
+    <p>
+        Под голубыми небесами<br>
+        Великолепными коврами,<br>
+        Блестя на солнце, снег лежит;<br>
+        Прозрачный лес один чернеет,<br>
+        <span class="green">И ель сквозь иней зеленеет</span>,<br>
+        И речка подо льдом блестит.<br>
+    </p>
+
+
+    <p>
+        Вся комната янтарным блеском<br>
+        Озарена. Веселым треском<br>
+        Трещит затопленная печь.<br>
+        Приятно думать у лежанки.<br>
+        Но знаешь: не велеть ли в санки<br>
+        Кобылку бурую запречь?<br>
+    </p>
+
+    <div>
+        Скользя по утреннему снегу,<br>
+        Друг милый,предадимся бегу<br>
+        Нетерпеливого коня<br>
+        И навестим поля пустые,<br>
+        Леса,недавно столь густые,<br>
+        И берег,милый для меня.<br>
+
+    </div>
+
+    <form action="#" method="get">
+        <h2>Форма регистрации</h2>
+        <p>
+            <label> Введите логин </label>
+            <input type="text" name="login" placeholder=" Введите Логин" required autofocus>
+        </p>
+        <p>
+            <label>Введите пароль</label>
+            <input type="password" name="password" placeholder=" Введите Пароль">
+        </p>
+        <h3>Ваши интересы</h3>
+        <ul style="list-style: none;">
+            <li><input type="checkbox" name="interes" value="music"> Музыка</li>
+            <li><input type="checkbox" name="interes" value="sport"> Спорт</li>
+            <li><input type="checkbox" name="interes" value="programmimg"> Програмирование</li>
+        </ul>
+        <h3>Способ оплаты</h3>
+        <label><input type="radio" name="pay" value="visa">Visa</label>
+        <input type="radio" name="pay" value="master card" id="card"><label for="card">Master card</label>
+        <input type="radio" name="pay" value="mir">Mir
+
+        <div>
+            <h3>Страна проживания</h3>
+            <p>
+                <select name="country" id="">
+                    <option disabled selected value="">Выберите страну</option>
+                    <option value="russian"> Россия</option>
+                    <option value="belorus">Беларусь</option>
+                    <option value="kz">Казахстан</option>
+                </select>
+            </p>
+        </div>
+        <br>
+        <textarea placeholder="Введите текст" name="form" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="reset">Очистить</button>
+
+
+
+
+
+        <br><input type="submit" value="Отправить"></br>
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
